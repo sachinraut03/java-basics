@@ -152,22 +152,22 @@ public class javaFunctions {
     //     System.out.println(decimal);
     // }
 
-    public static void binToDeci(int a){
-        int myoriginal_no=a;
-        int ld=0;
-        int pow=0;
-        int decimal =0;
-        while(a>0){
-            ld = a%10;
-            decimal= decimal+(ld * (int)Math.pow(2,pow));
-            a = a/10;
-            pow++;
-        }
-        System.out.println(myoriginal_no+" is converted binary to decimal is "+decimal);
-    }
-    public static void main(String[] args){
+    //public static void binToDeci(int a){
+    //    int myoriginal_no=a;
+    //    int ld=0;
+    //    int pow=0;
+    //    int decimal =0;
+    //    while(a>0){
+    //        ld = a%10;
+    //        decimal= decimal+(ld * (int)Math.pow(2,pow));
+    //       a = a/10;
+    //        pow++;
+    //    }
+    //    System.out.println(myoriginal_no+" is converted binary to decimal is "+decimal);
+    //}
+    //public static void main(String[] args){
         //isprimerange(20);
-        binToDeci(111);
+    //    binToDeci(111);
 
         //System.out.println(PrimeNo(20));
         // Scanner sc = new Scanner(System.in);
