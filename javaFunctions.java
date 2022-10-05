@@ -169,17 +169,17 @@ public class javaFunctions {
         //isprimerange(20);
     //    binToDeci(111);
 
-        //System.out.println(PrimeNo(20));
-        // Scanner sc = new Scanner(System.in);
-        // int n = sc.nextInt();
-        // for (int i = 2;i<n-1;i++){
-        //     if(n%i==0){
-        //         System.out.println("this is not prime");
-        //         break;
-        //     } else {
-        //         System.out.println("this is prime no");
-        //         break;
-        //     }
+//         System.out.println(PrimeNo(20));
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         for (int i = 2;i<n-1;i++){
+//             if(n%i==0){
+//                 System.out.println("this is not prime");
+//                 break;
+//             } else {
+//                 System.out.println("this is prime no");
+//                 break;
+//             }
         // }
     //     int sum =0;
     //     for (int i = 3;i<100;i++){
