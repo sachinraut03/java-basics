@@ -1,0 +1,73 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch functions",
+            "request": "launch",
+            "mainClass": "functions",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch javaFunctions",
+            "request": "launch",
+            "mainClass": "javaFunctions",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch neew",
+            "request": "launch",
+            "mainClass": "neew",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaPattern",
+            "request": "launch",
+            "mainClass": "JavaPattern",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch sample",
+            "request": "launch",
+            "mainClass": "sample",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaBasics",
+            "request": "launch",
+            "mainClass": "JavaBasics",
+            "projectName": "java_5b6051fa"
+        },
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        }
+    ]
+}
